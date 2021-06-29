@@ -1,0 +1,341 @@
+/* dropdown */
+.dropdown-menu {
+  width: 1000px;
+  background-color: #F2F2F2;
+}
+
+.whitedd {
+  background-color: white;
+}
+
+.dditem {
+  margin-left: 1em;
+}
+
+.dditem:hover {
+  border-bottom: 2px solid black;
+  padding-bottom: 0%;
+}
+
+.undisplaydd {
+  display: none;
+}
+
+.viewsitemap {
+  text-align: center;
+  background-color: #E6E6E6;
+  margin-bottom: -10px;
+}
+
+.viewa {
+  color: black;
+}
+
+.viewa:hover {
+  color: black;
+}
+
+.viewspan {
+  color: black;
+  margin-right: 10px;
+}
+
+/* navbar */
+.logo {
+  margin-top: -0.15em;
+  height: 1em;
+}
+
+.navbar {
+  margin: 0.5rem 3rem 0.5rem 3rem;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+.nav-item {
+  font-size: small;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.navitem:hover {
+  border-bottom: 2px solid black;
+  padding-bottom: 0%;
+}
+
+.nav-item:active {
+  outline: dashed 1px;
+}
+
+@media screen and (max-width: 1100px) {
+  .navbar {
+    margin-left: 0;
+    margin-right: 0;
+
+  }
+}
+
+@media screen and (max-width: 1164px) {
+  .hidetextitem {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .undisplaydd {
+    display: block;
+  }
+  .whitedd {
+    border: none;
+  }
+}
+
+/* carousel */
+.carousel {
+  margin: 0 3rem 0 3rem;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+.carouseldiv {
+  position: relative;
+}
+
+.carousel-inner {
+  height: 36em;
+}
+
+.carouseldetail1 {
+  /* background-color: #E8E8E8; */
+  position: absolute;
+  right: 160px;
+  top: 200px;
+  width: 35%;
+  color: white;
+}
+
+.carouseldetail2 {
+  position: absolute;
+  left: 160px;
+  top: 200px;
+  width: 35%;
+}
+
+.carouselbutton1 {
+  width: 150px;
+}
+
+.carouselbutton2 {
+  width: 200px;
+}
+
+.carouselbuttonstrong:hover {
+  border-bottom: 3px solid white;
+  margin-right: 8px; 
+  margin-left: -4px;
+}
+
+.carousellinkstrong:hover {
+  border-bottom: 3px solid black;
+  margin-right: 4px;
+}
+
+@media screen and (max-width: 1100px) {
+  .carousel {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .carouseldetail1 {
+    position: static;
+    width: 100%;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    background-color: #E8E8E8;
+  }
+
+  .carouseldetail2 {
+    padding: 0 2em 0;
+    position: static;
+    width: 100%;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E8E8E8;
+  }
+
+  .carousel-inner {
+    height: 100%;
+  }
+
+}
+
+/* icon link */
+.iconlink {
+  color: black;
+}
+
+.iconlink:hover {
+  color: black;
+}
+
+.icons {
+  overflow-x: auto;
+  max-width: 100%;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.iconitem {
+  display: inline-flex;
+  width: 150px; 
+  height: 120px;
+  text-align: center;
+}
+
+.iconitem p {
+  white-space: normal;
+  width: 160px; 
+  margin: 0 auto;
+}
+
+/* product */
+.product {
+  cursor: pointer;
+}
+
+.productimg {
+  width: 100%;
+}
+
+.productp {
+  height: 4.5em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.shopnow:hover {
+  text-decoration: none; 
+}
+
+.shopnowstrong:hover {
+  border-bottom: 3px solid #005EA6;
+  margin-right: 4px;
+}
+
+/* headphone */
+.headphonepic {
+  width: 100%;
+  height: auto;
+}
+
+.headphonedetail {
+  position: absolute;
+  left: 60px;
+  top: 100px;
+  width: 35%;
+}
+
+.headphonediv {
+  position: relative;
+  margin: 0 3rem 0 3rem;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+.btn-dark {
+  border-radius: 0%;
+  background-color: black;
+}
+
+.headphonebutton {
+  width: 240px;
+}
+
+@media screen and (max-width: 1100px) {
+  .headphonediv {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .headphonediv {
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  .headphonediv {
+    height: 100%;
+    /* border: solid 1px black; */
+  }
+  
+  .headphonedetail {
+    padding: 0 2em 2em;
+    position: static;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E8E8E8;
+    /* border: solid 1px black; */
+  }
+}
+
+/* business */
+.businessp {
+  height: 3em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+/* brand icon */
+.fa-facebook-square {
+  width: 200%;
+  height: 200%;
+}
+
+/* underinformation */
+.underinformation {
+  background-color: #F2F2F2;
+}
+
+.underitem {
+  font-size: 11px;
+}
+
+.underitemlist {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 992px) {
+  .underitemlist {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+.underitem:hover {
+  color: black;
+}
+
+
